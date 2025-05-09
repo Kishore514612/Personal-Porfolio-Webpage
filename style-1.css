@@ -1,0 +1,109 @@
+body{
+  text-align:center;
+  height: 550px;
+  background-image: url('Image-1/background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+}
+
+img{
+  border-radius: 70%;
+  height: 100px;
+  margin-top: 30px;
+}
+
+
+p.name{
+  color:rgb(0,0,0);
+  font-family: autour one;
+  padding-top:10px;
+  font-size:70px;
+  margin-bottom:0px;
+  margin-top: 5vh;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.name:hover{
+  letter-spacing: 5px;
+}
+
+.name:active{
+  letter-spacing: 0px;
+}
+
+.designation{
+  letter-spacing: 3px; 
+  color:rgb(0, 0, 0);
+  font-family: autour one;
+  font-size:20px;
+  line-height: 0%;
+  font-weight: lighter;
+  margin: 0px 0px 50px 0px;
+  cursor:pointer;
+  transition-duration: 0.5s;
+}
+
+.designation:hover{
+  letter-spacing: 5px;
+}
+
+.designation:active{
+  letter-spacing: 0px;
+}
+a{
+  text-decoration: none;
+  color:rgb(255,255,255);
+  cursor:pointer;
+}
+
+.box-1{
+  position:relative;
+  background-color: rgba(255, 255, 255,0.3);
+  height: 40px;
+  width:auto;
+  padding:40px 20px 50px 20px;
+  border-radius: 25px 25px 0px 0px;
+  margin: 20px 50px 0px 50px;
+}
+
+
+.h1{
+  text-align:left;
+  font-family: autour one;
+  font-size:50px;
+  padding-left: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.box-2{
+  position:relative;
+  background-color: rgba(255, 255, 255,0.3);
+  height: 200px;
+  width: auto;
+  padding:20px 20px 20px 20px;
+  border-radius: 0px 0px 25px 25px;
+  margin: 0px 50px 10px 50px;
+}
+
+.me{
+  position: absolute;
+  top:10px;
+  font-family: Emilys Candy;
+  color:rgb(0, 0, 0);
+  border-radius:50px;  
+  padding: 20px 30px 10px 30px;
+  width: auto;
+  height:auto;
+  font-size:25px;
+  text-align:center;
+}
+
+.moreintro{
+  font-family: autour one;
+  color:rgb(0, 0, 0);
+ font-size:20px;
+ padding-left:15px;
+}

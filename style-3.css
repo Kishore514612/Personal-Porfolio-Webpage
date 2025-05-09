@@ -1,0 +1,80 @@
+body{
+    font-family:autour one;
+    background-image: url('Image-1/background.jpg');
+    background-size:cover;
+    background-attachment:fixed ;
+    background-repeat:no-repeat;
+    color:rgb(255, 255, 255);
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 1s linear forwards;
+  }
+
+  @keyframes moveup {
+    100%{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+.life-s{
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .box-3{
+    height:150px;
+    width:auto;
+    position:relative;
+    border-radius:25px;
+    margin: 0px 30px 10px 30px;
+    padding: 30px 10px 60px 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+  }
+  
+  .life-s1{
+    position: absolute ;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px 20px 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 20px;
+  }
+  img{
+    border-radius: 70px;
+    height: 250px;
+    width: 500px;
+    margin: 40px 50px 25px 40px;
+    padding: 10px 10px 0px 0px ;
+  }
+  #abc{
+    display: flex;
+    justify-content: space-around;
+  }
+  .cont,.cont1{
+    justify-content: center;
+    margin:90px;
+    font-size: 15px;
+  }
+
+  .abc1{
+    display: flex;
+    justify-content: right;
+  }
+  .school{
+    padding: 50px;
+    border-radius: 25px;
+    background-color: black;
+    margin: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color:rgb(255, 255, 0);
+    cursor:pointer;
+  }
