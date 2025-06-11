@@ -1,6 +1,6 @@
 body{
     font-family:autour one;
-    background-image: url('Image-1/background.jpg');
+    background-image: url('background.jpg');
     background-size:cover;
     background-attachment:fixed ;
     background-repeat:no-repeat;
@@ -52,7 +52,7 @@ color:white;
 }
 
 .schl{
-  background-image: url('Image-1/chalk.jpg');
+  background-image: url('chalk.jpg');
   background-size:cover;
   font-family:autour one;
   font-weight:bolder;
@@ -75,7 +75,7 @@ width:190px;
 }  
 
 .clg{
-  background-image: url('Image-1/mit.jpg');
+  background-image: url('mit.jpg');
   background-image: url(https://www.dialeducation.com/assets/images/gallery/gallery_1610435914.jpg);
   background-size:cover;
   font-family:autour one;
